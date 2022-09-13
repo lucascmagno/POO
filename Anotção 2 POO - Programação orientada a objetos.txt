@@ -1,0 +1,46 @@
+POO - anotações
+
+Objeto Caneta:
+classe molde caneta
+	atributos: modelo, cor, ponta...
+	Métodos: pintar, rabiscar, escrever...
+	Estado: características atuais, ex: 50% de tinta e cor azul
+
+
+classe caneta
+   modelo: caractere
+   cor: caractere
+   ponta: real
+   carga: inteiro
+   tampa: logico
+
+   Metodo rabiscar()
+	se(tampada) entao
+	   escreva("ERROR")
+	senao
+	   escreva("Rabisco")
+	Fimse
+
+   fim do metodo
+	
+   Metodo tampar()
+	tampada = verdadeiro
+   fim do metodo
+
+fim da classe
+
+
+Instanciar
+ c1 = nova Caneta
+ c1.cor = "Azul"
+ c1.ponto = 0.5
+ c1.tampada = falso
+ c1.rabiscar()
+
+Classe
+Define os atributos e métodos comuns compartilhados pelos objetos
+
+Objeto
+É a instância de uma classe
+
+Abstração

@@ -1,0 +1,23 @@
+O que é programação orientada a objetos?
+	POO - Programação Orientada a Objetos
+Tentar apróximar o mundo virtual ao real
+
+Evolução das linguagens de programação:
+	Programação de baixo nível - Programação linear - Programação estruturada -
+Programação modular - POO
+
+Alan Kay - criador da primeira programação orientado a objetos
+
+Dados globais - procedimentos, procedimentos, procedimentos
+dadis de objetos - método, método
+
+COMERNada
+Confiável - segurança 
+Oportuno - desenvolvida em paralelo
+Manutenível - Fácil munutenção que beneficia um todo
+Extensível - podemos usálo em outro sistema
+Reutiizável - Reutilização
+Natural - Fácil de entender, focada na funcionalidade.
+a
+d
+a

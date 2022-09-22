@@ -1,0 +1,25 @@
+Método sem segurança no acesso ao documento
+e = nova Estante
+ t e.totDoc -> identifica a quantidade de documentos
+//////////////////////////////////////////////////////////////
+Maior segurança no acesso aos documentos
+Métodos acessores - Getters
+ t = e.getTotDoc()
+/////////////////////////////////////////////////////////////
+Métodos modificadores
+Setters
+e = nova Estante
+e.setTotDoc(doc)
+////////////////////////////////////////////////////////////
+Método construtor -> Faz algo predefinido pelo programador
+Construct
+class Caneta
+   Metodo contrutor
+     (m: caractere, c: caractere, p: Real)
+   setModelo(m)
+   setCor(c)
+   setPonta(p)
+   tampar()
+Fim Classe
+
+c1 = nova Caneta("BIC", "Azul", 0.5)

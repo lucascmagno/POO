@@ -1,48 +1,17 @@
-		Exemplos práticos 
-	conta de banco
-	atributos:
-	+ numConta
-	# tipo
-	- dono
-	- saldo
-	- status
+# pilares da POO
+EHP -> Encapsulamento, Herança e Polimorfismo
 
-	métodos	
-	+ abrirConta()
-	+ fecharConta()
-	+ depositar()
-	+ sacar()
-	+ pagarMensal()
-	
-	getnumConta()
-	setnumConta()
-	getTipo()
-	setTipo()
-	getDono()
-	setDono()
-	getSaldo()
-	setSaldo()
+Encapsulamento (Cápsula) -> ocultar partes independente da implementação permitindo construir partes invisíveis ao mundo exterior
+Exemplo: pilha: a pilha é uma cápsula que contem componentes químicos
+É usada para: Proteção, padrão
 
-	criação de método construtor()
+Interface: Lista de serviços fornecidos por um componento. É o contato com o mundo exterior, que define o que pode ser feito com um
+objeto dessa classe.
+obs: boa prática de programação
 
-abrir conta
-conta corrente (cc) ganha R$ 50,00
-conta poupança (cp) ganha R$ 150,00
+vntagens de encapsular:
+1 - Tornar mudanças visíveis 
+2 - Facilitar reutilização de código
+3 - Reduzir efeitos colaterais
 
-fechar conta 
-sem debitos e sem saldo
-
-depositar
-conta aberta
-
-sacar
-conta aberta 
-tem que ter saldo
-saldo menor ou igual ao saque
-
-pagarMensal
-cobra do saldo
-cc - paga 12 reais
-cp - pega 20 reais
-
-
+Na interface não há atributos apenas métodos
